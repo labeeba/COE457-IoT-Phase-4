@@ -1,0 +1,62 @@
+<html>
+
+<head>
+  <!-- title of the page -->
+  <title>Sign Up</title>
+  <!-- importing libraries -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+  <link rel="stylesheet" href="/css/signup.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+</head>
+<!-- body of the page starts here -->
+
+<body>
+  <!-- form tag where action is linked to another html page -->
+  <div id="form">
+    <h1 align="center">
+      <span>Get Started with</span>
+      <br>
+      <span class="gtitle">GreenCity.</span>
+    </h1>
+    <h3> Enter your details below. </h3>
+    <span id="error"> </span>
+    <!-- div class container that has log in contents -->
+    <div class="container">
+      <!-- label and input tag for email -->
+      <label for="email">
+        <strong>Email</strong>
+      </label>
+      <input type="email" placeholder="Enter email address" name="emailaddress" id="email" required>
+      <!-- label and input tag for username -->
+      <label for="username">
+        <strong>Username</strong>
+      </label>
+      <input type="text" placeholder="Enter Username" name="username" id="username" required>
+      <!-- label and input tag for password -->
+      <label for="password">
+        <strong>Password</strong>
+      </label>
+      <input type="password" placeholder="Enter Password" name="password" id="password" required>
+      <!-- label and input tag for location-->
+      <label for="location">
+        <strong>Location</strong>
+      </label>
+      <input type="text" placeholder="Enter location" name="location" id="location" required>
+
+      <!-- submit button for the form -->
+      <input type="button" value="Sign Up" id="submit">
+      <br>
+      <!-- closing div tag for class container -->
+    </div>
+
+    <!-- closing div form tag -->
+  </div>
+  <!-- closing body tag -->
+</body>
+<!-- script tags for javascript -->
+<script type="text/javascript" src="js/signup.js"> </script>
+<!-- closing html tag -->
+
+</html>

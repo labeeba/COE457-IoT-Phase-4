@@ -1,0 +1,22 @@
+/* setting font and color for all elements */
+*{
+  font-family:'Open Sans', sans-serif ;
+  background-color: #ebebeb;
+}
+
+/* setting padding for body tag */
+body{
+  padding:20px;
+}
+/* setting font properties for h4 tag */
+h4{
+letter-spacing: 2px;
+text-transform: uppercase;
+font-family:'Open Sans', sans-serif ;
+}
+
+/* setting image width and height for image tag */
+img{
+  width:100%;
+  height:70%;
+}

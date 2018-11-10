@@ -1,0 +1,52 @@
+<html>
+
+<head>
+  <!-- title of the page -->
+  <title>Login</title>
+  <!-- importing libraries -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+  <link rel="stylesheet" href="/css/login.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/login.js"> </script>
+</head>
+<!-- body of the page starts here -->
+
+<body>
+  <!-- div class form that styles login box -->
+  <div id="form">
+    <h1 align="center">
+      <span>Sign in to</span>
+      <br>
+      <span class="gtitle">GreenCity.</span>
+    </h1>
+    <h3> Enter your details below. </h3>
+    <h3>
+      <span id="error"> </span>
+    </h3>
+    <!-- div class container that has log in contents -->
+    <div class="container">
+      <!-- label and input tag for username -->
+      <label for="username">
+        <strong>Username</strong>
+      </label>
+      <input type="text" style="margin-bottom:20px;" placeholder="Enter Username" name="username" id="username" required>
+      <!-- label and input tag for password -->
+      <label for="password">
+        <strong>Password</strong>
+      </label>
+      <input type="password" placeholder="Enter Password" name="password" id="password" required>
+      <!-- submit button for the form -->
+      <input type="button" value="Login" id="submit">
+      <br>
+      <!-- closing div tag for class container -->
+    </div>
+    <!-- closing div tag for form  -->
+  </div>
+
+  <!-- closing body tag -->
+</body>
+<!-- closing html tag -->
+
+</html>
